@@ -1,0 +1,63 @@
+{
+	"baseMaps": [
+		{
+			"mapType": "XYZTileCache",
+			"visibility": true,
+			"name": "World Image",
+			"url": "http://www.ga.gov.au/gisimg/rest/services/topography/World_Bathymetry_Image_WM/MapServer",
+			"mapBGColor": "194584",
+			"opacity": 1,
+			"wrapDateLine": true,
+			"maxZoomLevel": 12,
+			"attribution": "World <a target='_blank' href='http://creativecommons.org/licenses/by/3.0/au/deed.en'>CC-By-Au</a> and <a target='_blank' href='http://www.naturalearthdata.com/'>Natural Earth</a>",
+			"$$hashKey": "object:52"
+		}
+	],
+	"layerMaps": [
+		{
+			"visibility": true,
+			"mapType": "WMS",
+			"layers": "hydrochem_analyses:HydrochemAnalyses",
+			"url": "http://services.ga.gov.au:80/geoserver/hydrochem_analyses/wfs",
+			"opacity": "",
+			"name": "hydrochem",
+			"$$hashKey": "object:201"
+		},
+		{
+			"visibility": true,
+			"mapType": "WMS",
+			"layers": "BoreholeView",
+			"url": "http://services.ga.gov.au/geoserver/gsmlp/wms?SERVICE=WMS",
+			"opacity": "",
+			"name": "BoreholeView",
+			"$$hashKey": "object:243"
+		},
+		{
+			"visibility": true,
+			"mapType": "WMS",
+			"layers": "BoreholeSamples",
+			"url": "http://services.ga.gov.au/geoserver/borehole_samples/wms",
+			"opacity": "",
+			"name": "Borehole Samples"
+		}
+	],
+	"centerPosition": null,
+	"initialExtent": [
+		[
+			110.47,
+			-8.36
+		],
+		[
+			161.09,
+			-43.77
+		]
+	],
+	"framework": "olv2",
+	"datumProjection": "EPSG:3857",
+	"displayProjection": "EPSG:4326",
+	"id": "Hydrochemistry",
+	"title": "Hydrochemistry data",
+	"headerConfig": {
+		"title": "Hydrochemistry data"
+	}
+}
