@@ -1,0 +1,66 @@
+{
+	"id": "Australian Boreholes",
+	"datumProjection": "EPSG:3857",
+	"displayProjection": "EPSG:4326",
+	"title": "Template title",
+	"headerConfig": {
+		"title": "Template header title"
+	},
+	"toolsConfig": {
+		"tools": []
+	},
+	"initialExtent": [
+		[
+			90.5,
+			13.73
+		],
+		[
+			171.62,
+			-58.05
+		]
+	],
+	"centerPosition": {},
+	"baseMaps": [
+		{
+			"mapType": "XYZTileCache",
+			"visibility": true,
+			"name": "World Image",
+			"url": "http://www.ga.gov.au/gisimg/rest/services/topography/World_Bathymetry_Image_WM/MapServer",
+			"mapBGColor": "194584",
+			"opacity": 1,
+			"wrapDateLine": true,
+			"maxZoomLevel": 12,
+			"attribution": "World <a target='_blank' href='http://creativecommons.org/licenses/by/3.0/au/deed.en'>CC-By-Au</a> and <a target='_blank' href='http://www.naturalearthdata.com/'>Natural Earth</a>",
+			"$$hashKey": "object:101"
+		}
+	],
+	"layerMaps": [
+		{
+			"mapType": "WMS",
+			"visibility": true,
+			"name": "Boreholes",
+			"url": "http://intranet-dev.ga.gov.au/gis/services/Boreholes_Demo/MapServer/WMSServer",
+			"layers": "Boreholes",
+			"opacity": "1",
+			"$$hashKey": "object:108"
+		},
+		{
+			"mapType": "WMS",
+			"visibility": true,
+			"name": "Boreholes Samples",
+			"url": "http://intranet-dev.ga.gov.au/gis/services/Boreholes_Demo/MapServer/WMSServer",
+			"layers": "Borehole_Samples",
+			"opacity": "1",
+			"$$hashKey": "object:127"
+		},
+		{
+			"mapType": "WMS",
+			"visibility": true,
+			"name": "Hydrochem Analysis",
+			"url": "http://intranet-dev.ga.gov.au/gis/services/Boreholes_Demo/MapServer/WMSServer",
+			"layers": "Hydrochem_Analysis",
+			"opacity": "1",
+			"$$hashKey": "object:132"
+		}
+	]
+}

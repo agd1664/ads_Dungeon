@@ -1,0 +1,170 @@
+{
+	"baseMaps": [
+		{
+			"mapType": "XYZTileCache",
+			"visibility": true,
+			"name": "World Image",
+			"url": "http://www.ga.gov.au/gisimg/rest/services/topography/World_Bathymetry_Image_WM/MapServer",
+			"mapBGColor": "194584",
+			"opacity": 1,
+			"wrapDateLine": true,
+			"maxZoomLevel": 12,
+			"attribution": "World <a target='_blank' href='http://creativecommons.org/licenses/by/3.0/au/deed.en'>CC-By-Au</a> and <a target='_blank' href='http://www.naturalearthdata.com/'>Natural Earth</a>",
+			"$$hashKey": "object:2679"
+		}
+	],
+	"layerMaps": [
+		{
+			"slug": "Surface_Geology_Of_Australia_2500K",
+			"extent": [
+				[
+					99,
+					10
+				],
+				[
+					169,
+					-55
+				]
+			],
+			"id": "surfaceGeology",
+			"mapType": "WMS",
+			"visibility": true,
+			"name": "WaterTable",
+			"layers": "WaterTable",
+			"url": "http://intranet-dev.ga.gov.au/gis/services/GreatArtesianBasin/MapServer/WmsServer",
+			"opacity": "0.5",
+			"metadataText": "The Surface Geology of Australia Web Map Service provides two seamless national coverages of bedrock and surficial geology, compiled for use at 1:1 million scale and 1:2.5 million scale. It also contains 1:5M data for geological regions and metamorphic geology. The 1:1M data is limited so that it does not display at scales less than 1:1,500,000. The 1:2.5M data is limited so that it does not display at scales greater than 1:1,500,000. The data represents outcropping or near-outcropping bedrock units, and unconsolidated or poorly consolidated regolith material covering bedrock. Geological units are represented as polygon and line geometries, and are attributed with information regarding stratigraphic name and hierarchy, age, lithology, and primary data source. Layers are available for geological units coloured by lithostratigraphy, age, and lithology. The dataset also contains geological contacts, structural features such as faults and shears, and miscellaneous supporting lines like the boundaries of water and ice bodies.",
+			"ogcLinks": [
+				{
+					"description": "Dataset Metadata",
+					"url": "http://www.ga.gov.au/metadata-gateway/metadata/record/73140/"
+				},
+				{
+					"description": "Service Metadata (REST)",
+					"url": "http://www.ga.gov.au/gis/rest/services/earth_science/GA_Surface_Geology_of_Australia/MapServer/WMSServer"
+				},
+				{
+					"description": "WMS Capabilities",
+					"url": "http://www.ga.gov.au/gis/services/earth_science/GA_Surface_Geology_of_Australia/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+				},
+				{
+					"description": "ArcMap Layerfile",
+					"url": "http://www.ga.gov.au/gis/rest/services/earth_science/GA_Surface_Geology_of_Australia_WM/MapServer/WMSServer?f=lyr&v=9.3"
+				}
+			],
+			"queryFeatures": true,
+			"queryUrl": "http://www.ga.gov.au/gis/services/earth_science/GA_Surface_Geology_of_Australia/MapServer/WMSServer",
+			"queryUrlType": "WMS",
+			"queryVersion": "1.1.1",
+			"queryLayers": "AUS_GA_2500K_GUPoly_Lithostratigraphy,AUS_GA_2500K_Contacts,AUS_GA_2500K_Faults,AUS_GA_2500K_MiscLines",
+			"$$hashKey": "object:2741"
+		},
+		{
+			"slug": "Surface_Geology_Of_Australia_2500K",
+			"extent": [
+				[
+					99,
+					10
+				],
+				[
+					169,
+					-55
+				]
+			],
+			"id": "surfaceGeology",
+			"mapType": "WMS",
+			"visibility": true,
+			"name": "Great Artesian Basin Potentiometric Surfaces",
+			"layers": "2",
+			"url": "http://intranet-dev.ga.gov.au/gis/services/Great_Artesian_Basin_Potentiometric_Surfaces/MapServer/WmsServer",
+			"opacity": "1",
+			"metadataText": "The Surface Geology of Australia Web Map Service provides two seamless national coverages of bedrock and surficial geology, compiled for use at 1:1 million scale and 1:2.5 million scale. It also contains 1:5M data for geological regions and metamorphic geology. The 1:1M data is limited so that it does not display at scales less than 1:1,500,000. The 1:2.5M data is limited so that it does not display at scales greater than 1:1,500,000. The data represents outcropping or near-outcropping bedrock units, and unconsolidated or poorly consolidated regolith material covering bedrock. Geological units are represented as polygon and line geometries, and are attributed with information regarding stratigraphic name and hierarchy, age, lithology, and primary data source. Layers are available for geological units coloured by lithostratigraphy, age, and lithology. The dataset also contains geological contacts, structural features such as faults and shears, and miscellaneous supporting lines like the boundaries of water and ice bodies.",
+			"ogcLinks": [
+				{
+					"description": "Dataset Metadata",
+					"url": "http://www.ga.gov.au/metadata-gateway/metadata/record/73140/"
+				},
+				{
+					"description": "Service Metadata (REST)",
+					"url": "http://www.ga.gov.au/gis/rest/services/earth_science/GA_Surface_Geology_of_Australia/MapServer/WMSServer"
+				},
+				{
+					"description": "WMS Capabilities",
+					"url": "http://www.ga.gov.au/gis/services/earth_science/GA_Surface_Geology_of_Australia/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+				},
+				{
+					"description": "ArcMap Layerfile",
+					"url": "http://www.ga.gov.au/gis/rest/services/earth_science/GA_Surface_Geology_of_Australia_WM/MapServer/WMSServer?f=lyr&v=9.3"
+				}
+			],
+			"queryFeatures": true,
+			"queryUrl": "http://www.ga.gov.au/gis/services/earth_science/GA_Surface_Geology_of_Australia/MapServer/WMSServer",
+			"queryUrlType": "WMS",
+			"queryVersion": "1.1.1",
+			"queryLayers": "AUS_GA_2500K_GUPoly_Lithostratigraphy,AUS_GA_2500K_Contacts,AUS_GA_2500K_Faults,AUS_GA_2500K_MiscLines",
+			"$$hashKey": "object:2765"
+		},
+		{
+			"slug": "Surface_Geology_Of_Australia_2500K",
+			"extent": [
+				[
+					99,
+					10
+				],
+				[
+					169,
+					-55
+				]
+			],
+			"id": "surfaceGeology",
+			"mapType": "WMS",
+			"visibility": true,
+			"name": "Cadna owie Hooray Aquifer pH",
+			"layers": "Cadna_owie_Hooray_Aquifer_pH",
+			"url": "http://intranet-dev.ga.gov.au/gis/services/HydroChemistry/MapServer/WmsServer",
+			"opacity": "0.5",
+			"metadataText": "The Surface Geology of Australia Web Map Service provides two seamless national coverages of bedrock and surficial geology, compiled for use at 1:1 million scale and 1:2.5 million scale. It also contains 1:5M data for geological regions and metamorphic geology. The 1:1M data is limited so that it does not display at scales less than 1:1,500,000. The 1:2.5M data is limited so that it does not display at scales greater than 1:1,500,000. The data represents outcropping or near-outcropping bedrock units, and unconsolidated or poorly consolidated regolith material covering bedrock. Geological units are represented as polygon and line geometries, and are attributed with information regarding stratigraphic name and hierarchy, age, lithology, and primary data source. Layers are available for geological units coloured by lithostratigraphy, age, and lithology. The dataset also contains geological contacts, structural features such as faults and shears, and miscellaneous supporting lines like the boundaries of water and ice bodies.",
+			"ogcLinks": [
+				{
+					"description": "Dataset Metadata",
+					"url": "http://www.ga.gov.au/metadata-gateway/metadata/record/73140/"
+				},
+				{
+					"description": "Service Metadata (REST)",
+					"url": "http://www.ga.gov.au/gis/rest/services/earth_science/GA_Surface_Geology_of_Australia/MapServer/WMSServer"
+				},
+				{
+					"description": "WMS Capabilities",
+					"url": "http://www.ga.gov.au/gis/services/earth_science/GA_Surface_Geology_of_Australia/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+				},
+				{
+					"description": "ArcMap Layerfile",
+					"url": "http://www.ga.gov.au/gis/rest/services/earth_science/GA_Surface_Geology_of_Australia_WM/MapServer/WMSServer?f=lyr&v=9.3"
+				}
+			],
+			"queryFeatures": true,
+			"queryUrl": "http://www.ga.gov.au/gis/services/earth_science/GA_Surface_Geology_of_Australia/MapServer/WMSServer",
+			"queryUrlType": "WMS",
+			"queryVersion": "1.1.1",
+			"queryLayers": "AUS_GA_2500K_GUPoly_Lithostratigraphy,AUS_GA_2500K_Contacts,AUS_GA_2500K_Faults,AUS_GA_2500K_MiscLines",
+			"$$hashKey": "object:2781"
+		}
+	],
+	"centerPosition": null,
+	"initialExtent": [
+		[
+			128.81,
+			-13.47
+		],
+		[
+			154.13,
+			-31.99
+		]
+	],
+	"framework": "olv2",
+	"datumProjection": "EPSG:3857",
+	"displayProjection": "EPSG:4326",
+	"toolsConfig": {
+		"tools": []
+	}
+}

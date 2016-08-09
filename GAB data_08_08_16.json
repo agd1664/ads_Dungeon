@@ -1,0 +1,60 @@
+{
+	"baseMaps": [
+		{
+			"mapType": "XYZTileCache",
+			"visibility": true,
+			"name": "World Image",
+			"url": "http://www.ga.gov.au/gisimg/rest/services/topography/World_Bathymetry_Image_WM/MapServer",
+			"mapBGColor": "194584",
+			"opacity": 1,
+			"wrapDateLine": true,
+			"maxZoomLevel": 12,
+			"attribution": "World <a target='_blank' href='http://creativecommons.org/licenses/by/3.0/au/deed.en'>CC-By-Au</a> and <a target='_blank' href='http://www.naturalearthdata.com/'>Natural Earth</a>",
+			"$$hashKey": "object:52"
+		}
+	],
+	"layerMaps": [
+		{
+			"mapType": "WMS",
+			"visibility": true,
+			"name": "Cadna-owie - Hooray Aquifer predicted Alkalinity",
+			"url": "http://intranet-dev.ga.gov.au/gis/services/HydroChemistry/MapServer/WmsServer?",
+			"layers": "Cadna_owie_Hooray_Aquifer_Cl",
+			"$$hashKey": "object:1035"
+		},
+		{
+			"mapType": "WMS",
+			"visibility": true,
+			"name": "Great Artesian Boundary",
+			"url": "http://intranet-dev.ga.gov.au/gis/services/HydroChemistry/MapServer/WmsServer?",
+			"layers": "GAB_Hydrological_Boundary",
+			"$$hashKey": "object:1040"
+		},
+		{
+			"mapType": "WMS",
+			"visibility": true,
+			"name": "GAB well sources",
+			"url": "http://intranet-dev.ga.gov.au/gis/services/HydroChemistry/MapServer/WmsServer?",
+			"layers": "GAB_Well_Sources"
+		}
+	],
+	"centerPosition": null,
+	"initialExtent": [
+		[
+			110.47,
+			-8.36
+		],
+		[
+			161.09,
+			-43.77
+		]
+	],
+	"framework": "olv2",
+	"datumProjection": "EPSG:3857",
+	"displayProjection": "EPSG:4326",
+	"id": "GAB data",
+	"title": "GAB data test",
+	"headerConfig": {
+		"title": "Great Artesian Basin data"
+	}
+}

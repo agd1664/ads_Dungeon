@@ -1,0 +1,86 @@
+{
+	"baseMaps": [
+		{
+			"mapType": "XYZTileCache",
+			"visibility": true,
+			"name": "World Image",
+			"url": "http://www.ga.gov.au/gisimg/rest/services/topography/World_Bathymetry_Image_WM/MapServer",
+			"mapBGColor": "194584",
+			"opacity": 1,
+			"wrapDateLine": true,
+			"maxZoomLevel": 12,
+			"attribution": "World <a target='_blank' href='http://creativecommons.org/licenses/by/3.0/au/deed.en'>CC-By-Au</a> and <a target='_blank' href='http://www.naturalearthdata.com/'>Natural Earth</a>",
+			"$$hashKey": "object:52"
+		}
+	],
+	"layerMaps": [
+		{
+			"mapType": "WMS",
+			"url": "http://rhe-geoserv-dev01.dev.lan:8080/geoserver/boreholes/wms",
+			"visibility": true,
+			"name": "boreholes",
+			"layers": "boreholes:Boreholes",
+			"$$hashKey": "object:4826"
+		},
+		{
+			"mapType": "WMS",
+			"url": "http://rhe-geoserv-dev01.dev.lan:8080/geoserver/borehole_samples/wms",
+			"visibility": true,
+			"name": "Borehole Samples",
+			"layers": "borehole_samples:BoreholeSamples",
+			"$$hashKey": "object:4867"
+		},
+		{
+			"mapType": "WMS",
+			"url": "http://rhe-geoserv-dev01.dev.lan:8080/geoserver/hydrochem_analyses/wms?SERVICE=WMS&",
+			"visibility": true,
+			"name": "Hydrochem Analyses",
+			"layers": "HydrochemAnalyses",
+			"$$hashKey": "object:4872"
+		},
+		{
+			"mapType": "WMS",
+			"url": "http://intranet-dev.ga.gov.au/gis/services/HydroChemistry/MapServer/WmsServer?",
+			"visibility": true,
+			"name": "Cadna owie Hooray TDS",
+			"layers": "Cadna_owie_Hooray_TDS",
+			"$$hashKey": "object:4898"
+		},
+		{
+			"mapType": "WMS",
+			"url": "http://intranet-dev.ga.gov.au/gis/services/Galilee_rasters/MapServer/WmsServer?",
+			"visibility": true,
+			"name": "Bandanna top",
+			"layers": "2",
+			"$$hashKey": "object:4908"
+		},
+		{
+			"mapType": "WMS",
+			"url": "http://intranet-dev.ga.gov.au/gis/services/Galilee_rasters/MapServer/WmsServer?",
+			"visibility": true,
+			"name": "Adori top",
+			"layers": "3",
+			"opacity": ""
+		}
+	],
+	"centerPosition": null,
+	"initialExtent": [
+		[
+			109.27,
+			-8.32
+		],
+		[
+			159.9,
+			-43.74
+		]
+	],
+	"framework": "olv2",
+	"datumProjection": "EPSG:3857",
+	"displayProjection": "EPSG:4326",
+	"previewImageUrl": "",
+	"title": "Data from DEV",
+	"headerConfig": {
+		"title": "Data from DEV"
+	},
+	"id": "13/7/2016"
+}
